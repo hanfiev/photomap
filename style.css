@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#drop_zone {
+  background-color: red;
+  width: 100vw;
+  height: 50vh;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+#intro {
+  position: absolute;
+  color: white;
+  /* background-color: yellow; */
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  width: 90vw;
+  max-width: 600px;
+  /* background-color: red; */
+  text-align: center;
+  margin: 20px;
+}
+
+#title>#header{
+  font-size: 20pt;
+}
+
+#photo_upload {
+  width: 90vw;
+  max-width: 400px;
+  /* background-color: blue; */
+  text-align: center;
+  background: linear-gradient(100.46deg, rgba(255, 255, 255, 0) -0.71%, rgba(140, 140, 140, 0.1672) 51%, rgba(255, 255, 255, 0) 100.6%);
+  border: 1px solid rgba(151, 151, 151, 0.33);
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 11px;
+}
+
+#drop_area {
+  /* background-color: black; */
+  height: 200px;
+  /* width: 300px; */
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 30px;
+  border: 1px dashed #676767;
+  border-radius: 11px;
+}
+
+#submit_btn {
+  background-color: black;
+  padding: 10px;
+  margin: 10px;
+  background: linear-gradient(94.73deg, #FC954B 18.06%, #F45DD3 81.22%);
+  box-shadow: inset 0px 0px 8px rgba(255, 255, 255, 0.8);
+  border-radius: 7px;
+}
